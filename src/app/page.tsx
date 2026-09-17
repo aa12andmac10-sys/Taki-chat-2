@@ -32,7 +32,7 @@ export default function NicknamePage() {
         className="w-full max-w-sm rounded-2xl border border-zinc-200 bg-white p-8 shadow-sm dark:border-zinc-800 dark:bg-zinc-900"
       >
         <h1 className="mb-2 text-center text-2xl font-bold tracking-tight text-zinc-900 dark:text-zinc-100">
-          連絡用チャット
+          Taki Chat
         </h1>
         <p className="mb-6 text-center text-sm text-zinc-500 dark:text-zinc-400">
           ニックネームを入力して始めましょう
@@ -46,7 +46,7 @@ export default function NicknamePage() {
             type="text"
             value={nickname}
             onChange={(e) => setNickname(e.target.value)}
-            placeholder="例:たなか"
+            placeholder="例:東条英機"
             maxLength={20}
             autoFocus
             className="w-full rounded-xl border border-zinc-300 bg-white px-4 py-2.5 text-sm text-zinc-900 outline-none transition focus:border-zinc-500 focus:ring-2 focus:ring-zinc-200 dark:border-zinc-700 dark:bg-zinc-800 dark:text-zinc-100 dark:focus:border-zinc-500 dark:focus:ring-zinc-700"
