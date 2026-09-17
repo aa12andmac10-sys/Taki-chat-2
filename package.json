@@ -1,6 +1,6 @@
 {
   "name": "kuku-chat",
-  "version": "0.1.0",
+  "version": "1.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -10,13 +10,11 @@
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.45.4",
-    "bcryptjs": "^2.4.3",
     "next": "14.2.5",
     "react": "^18",
     "react-dom": "^18"
   },
   "devDependencies": {
-    "@types/bcryptjs": "^2.4.6",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
